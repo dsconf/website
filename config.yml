@@ -67,7 +67,7 @@ params:
       time: "9.00"
 
     - name: "Sriram Srinivasan"
-      photo: "/img/sriram.jpg"
+      photo: "img/sriram.jpg"
       bio: " Dr. Sriram Srinivasan is a systems and programming languages geek with 30+ years of experience, from embedded devices to to large-scale distributed systems and frameworks. He was one of the  principal designers and implementors of the Weblogic application server. He has a PhD from the Univ. of Cambridge and teaches Distributed Systems at IIT Bombay."
       company: "Linux Foundation"
       link:
@@ -79,7 +79,7 @@ params:
         time: "TBD"
 
     - name: "Sandeep Deshmukh"
-      photo: "/img/sandeep-deshmukh.jpg"
+      photo: "img/sandeep-deshmukh.jpg"
       bio: "Dr Sandeep Deshmukh completed his PhD from IIT Bombay and has been working in Big Data and Hadoop ecosystem for 7+ years. He has executed complex projects in different domains in a distributed computing environment. He loves teaching and interacting with people and has conducted numerous workshops on Hadoop and Apache Apex. Currently Sandeep is a Trainer and Consultant for Big Data, Hadoop and Apache Apex."
       company: "Microsoft"
       link:
