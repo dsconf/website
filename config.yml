@@ -22,9 +22,10 @@ params:
   # you can also change order here and it will reflect on page
   Sections: 
     - speakers
+    - schedule
     - about
     - location
-    # - schedule
+    
     # - sponsors
     # - partners
     #- contact
@@ -62,8 +63,8 @@ params:
 
   # The entire schedule
   Schedule:
-    - name: "Check-in / Breakfast"
-      time: "9h00"
+    - name: "Registration"
+      time: "9.00"
 
     - name: "Sriram Srinivasan"
       photo: "/img/sriram.jpg"
@@ -75,7 +76,7 @@ params:
       presentation:
         title: "The Many Flavours Of Consensus"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: ""
+        time: "TBD"
 
     - name: "Sandeep Deshmukh"
       photo: "/img/sandeep-deshmukh.jpg"
@@ -87,7 +88,7 @@ params:
       presentation:
         title: "Operability and Observasbility of Big Data Ecosystem"
         description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-        time: ""
+        time: "TBD"
 
-    - name: "Lunch"
-      time: "12h00"
+    # - name: "Lunch"
+    #   time: "12h00"
