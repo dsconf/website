@@ -1,4 +1,4 @@
-baseurl: "http://shripad-agashe.github.io/DSConf"
+baseurl: "https://shripad-agashe.github.io/DSConf"
 title: "Distributed Systems Conference"
 canonifyurls: true
 theme: "ds-conf"
