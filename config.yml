@@ -1,0 +1,93 @@
+baseurl: "https://example.org/"
+title: "Distributed Systems Conference"
+canonifyurls: true
+theme: "hugo-conference"
+
+GoogleAnalytics: ""
+
+params:
+  # Conference info
+  Name: "Distributed Systems Conference"
+  Description: "Best Practices | Future of Distributed Systems"
+  Date: "April 21"
+  Price: "" # If your event is free, just comment this line
+  Venue: "Hotel Shereton Grand"
+  Address: "Raja Bahadur Mill Rd"
+  City:  "Pune"
+  State: "Maharashtra"
+  Images: ["/img/badge.jpg"]
+  GoogleMapsKey: "AIzaSyBn2ym7eC7ljBuWwxZgJ-U9gbKCIMk43rQ"
+
+  # Active sections on the website to deactivate comment out with '#'
+  # you can also change order here and it will reflect on page
+  Sections: 
+    - speakers
+    - about
+    - location
+    # - schedule
+    # - sponsors
+    # - partners
+    #- contact
+
+  # Titles which you can translate to other languages
+  Titles:
+    about: "About"
+    location: "Location"
+    speakers: "Speakers"
+    schedule: "Schedule"
+    sponsors: "Sponsors"
+    partners: "Partners"
+    contact: "Contact"
+
+  # The Call To Action button at the header,
+  # If you don't want this, just remove the callToAction property.
+  CallToAction:
+    text: "Register now!"
+    link: "http://register.example.com"
+
+  # # List of Sponsors
+  # Sponsors:
+  #   - name: "Hugo"
+  #     logo: "/img/hugo.png"
+  #     url: "http://gohugo.io"
+
+  # # List of Partners
+  # Partners:
+  #   - name: "Hugo"
+  #     logo: "/img/hugo.jpg"
+  #     url: "https://gohugo.io"
+  #   - name: "BrazilJS"
+  #     logo: "/img/partner.png"
+  #     url: "http://braziljs.org"
+
+  # The entire schedule
+  Schedule:
+    - name: "Check-in / Breakfast"
+      time: "9h00"
+
+    - name: "Sriram Srinivasan"
+      photo: "/img/sriram.jpg"
+      bio: " Dr. Sriram Srinivasan is a systems and programming languages geek with 30+ years of experience, from embedded devices to to large-scale distributed systems and frameworks. He was one of the  principal designers and implementors of the Weblogic application server. He has a PhD from the Univ. of Cambridge and teaches Distributed Systems at IIT Bombay."
+      company: "Linux Foundation"
+      link:
+        href: "https://github.com/sriram-srinivasan"
+        text: "@Sriram"
+      presentation:
+        title: "The Many Flavours Of Consensus"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: ""
+
+    - name: "Sandeep Deshmukh"
+      photo: "/img/sandeep-deshmukh.jpg"
+      bio: "Dr Sandeep Deshmukh completed his PhD from IIT Bombay and has been working in Big Data and Hadoop ecosystem for 7+ years. He has executed complex projects in different domains in a distributed computing environment. He loves teaching and interacting with people and has conducted numerous workshops on Hadoop and Apache Apex. Currently Sandeep is a Trainer and Consultant for Big Data, Hadoop and Apache Apex."
+      company: "Microsoft"
+      link:
+        href: "https://github.com/sandeepdeshmukh"
+        text: "@Sandeep"
+      presentation:
+        title: "Operability and Observasbility of Big Data Ecosystem"
+        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
+        time: ""
+
+    - name: "Lunch"
+      time: "12h00"
