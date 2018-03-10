@@ -12,7 +12,7 @@ params:
   Date: "April 21"
   Price: "" # If your event is free, just comment this line
   Venue: "Hotel Shereton Grand"
-  Address: "Raja Bahadur Mill Rd"
+  Address: "Hotel Shereton Grand, Raja Bahadur Mill Rd"
   City:  "Pune"
   State: "Maharashtra"
   Images: ["/img/badge.jpg"]
@@ -89,6 +89,11 @@ params:
         title: "Operability and Observasbility of Big Data Ecosystem"
         description: "Most of the big data systems project don’t make it to production. We would dive into the reasons for the same and how  the situation can be improved by taking into consideration oberverability and operablity. We will present why and how operability is important, and how it directly results in lower TCO and quicker TTV. These are critical needs for big data projects to succeed, and for big data to be mass market. Big data needs to be productized and operationalized."
         time: "TBD"
+
+    - name: "To be announced"
+      time: "TBD"
+    - name: "To be announced"
+      time: "TBD"
 
     # - name: "Lunch"
     #   time: "12h00"
