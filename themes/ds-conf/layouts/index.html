@@ -32,12 +32,9 @@
             {{ partial $section $.Site.Params }}
           </section>
         {{ end }}
-
-        <footer class="footer">
-          <p>Made with ♥ by <a href="https://github.com/braziljs/conf-boilerplate" target="_blank">Conf Boilerplate</a> :)</p>
-        </footer>
       </div>
     </div>
+    {{ partial "footer.html" . }} 
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
