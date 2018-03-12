@@ -3,7 +3,7 @@ title: "Distributed Systems Conference"
 canonifyurls: true
 theme: "ds-conf"
 
-GoogleAnalytics: ""
+GoogleAnalytics: "UA-115518698-1"
 
 params:
   # Conference info
