@@ -62,47 +62,76 @@ params:
   #     url: "http://braziljs.org"
 
   # The entire schedule
-  Schedule:
-    - name: "Registration"
-      time: "9.00"
-
-    - name: "Sriram Srinivasan"
+  Speakers: 
+    - name: "Dr. Sriram Srinivasan"
       photo: "img/sriram.jpg"
       bio: " Dr. Sriram Srinivasan is a systems and programming languages geek with 30+ years of experience, from embedded devices to to large-scale distributed systems and frameworks. He was one of the  principal designers and implementors of the Weblogic application server. He has a PhD from the Univ. of Cambridge and teaches Distributed Systems at IIT Bombay."
       company: "Linux Foundation"
+      talk: 
+        title: "The Many Flavours Of Consensus"
+        href: "/#id1"
       link:
         href: "https://github.com/sriram-srinivasan"
         text: "@Sriram"
-      presentation:
-        title: "The Many Flavours Of Consensus"
-        description: " Consensus is the act of agreement amongst distributed participants. This talk will try to make sense of the wide variety of problems and solutions that are lumped under the consensus label:  two-phase commit, byzantine agreement, paxos/raft, bitcoin and so on."
-        time: "TBD"
 
-    - name: "Sandeep Deshmukh"
+    - name: "Dr. Sandeep Deshmukh"
       photo: "img/sandeep-deshmukh.jpg"
       bio: "Dr Sandeep Deshmukh completed his PhD from IIT Bombay and has been working in Big Data and Hadoop ecosystem for 7+ years. He has executed complex projects in different domains in a distributed computing environment. He loves teaching and interacting with people and has conducted numerous workshops on Hadoop and Apache Apex. Currently Sandeep is a Trainer and Consultant for Big Data, Hadoop and Apache Apex."
+      talk: 
+        title: "Operability and Observasbility of Big Data Ecosystems"
+        href: "/#id2"
       link:
         href: "https://github.com/sandeepdeshmukh"
         text: "@Sandeep"
-      presentation:
-        title: "Operability and Observasbility of Big Data Ecosystem"
-        description: "Most of the big data systems project don’t make it to production. We would dive into the reasons for the same and how  the situation can be improved by taking into consideration oberverability and operablity. We will present why and how operability is important, and how it directly results in lower TCO and quicker TTV. These are critical needs for big data projects to succeed, and for big data to be mass market. Big data needs to be productized and operationalized."
-        time: "TBD"
-        
+    
     - name: "Sriram Ramachandrasekaran"
-      photo: ""
+      photo: "img/sriram-indix.jpg"
       bio: "Sriram is a Principal Engineer @ Indix. Apart from writing code to foot his bills, he does it to get some adrenaline going, when he is not riding his bike on unchartered terrains. He is co-author of Suuchi project along with his fellow engineer Ashwanth kumar. Currently, he works on problems involving ML at Indix."      
+      talk: 
+        title: "Why we built a distributed system"
+        href: "/#id3"
       link:
         href: "https://github.com/brewkode"
         text: "@Sriram"
-      presentation:
+    - name: "Ashwanth Kumar"
+      photo: "img/aswant.jpeg"
+      bio: "Ashwanth Kumar is a Principal Software Engineer @indix. While he's not fiddling with distributed Systems and data, he contributes to Open Source and helps organise meetups and tech events in the City. He writes Scala at work and Go at home."
+      talk: 
+        title: "Why we built a distributed system"
+        href: "/#id3"
+      link:
+        href: "https://github.com/ashwanthkumar"
+        text: "@Sriram"
+        
+  Schedule:
+    - presentation:
+        title: "Registration"
+        description: ""
+        time: "9.00"
+        id: "id1"
+
+    - presentation:
+        title: "The Many Flavours Of Consensus"
+        description: " Consensus is the act of agreement amongst distributed participants. This talk will try to make sense of the wide variety of problems and solutions that are lumped under the consensus label:  two-phase commit, byzantine agreement, paxos/raft, bitcoin and so on."
+        time: "TBD"
+        id: "id2"
+
+    - presentation:
+        title: "Operability and Observasbility of Big Data Ecosystem"
+        description: "Most of the big data systems project don’t make it to production. We would dive into the reasons for the same and how  the situation can be improved by taking into consideration oberverability and operablity. We will present why and how operability is important, and how it directly results in lower TCO and quicker TTV. These are critical needs for big data projects to succeed, and for big data to be mass market. Big data needs to be productized and operationalized."
+        time: "TBD"
+        id: "id3"
+        
+  
+    - presentation:
         title: "Why we built a distributed system"
         description: "At Indix, we have a bunch of services that need to operate on top of large volume of product data. We started out with using open source distributed systems (like Hadoop, HBase, Solr, Spark, etc) to build some of our solutions. Along the way, we’ve also had problems where existing solutions wouldn’t really work for our requirements and operational cost associated with them started to shoot up. This pushed us to build a couple of “simple” distributed systems.
                     With this context, we started out building Suuchi⁰, a toolkit for building distributed data systems."
         time: "TBD"
+        id: "id4"
 
-    - name: "To be announced"
-      time: "TBD"
-
-    # - name: "Lunch"
-    #   time: "12h00"
+    - presentation:
+        title: "To be added later"
+        description: ""
+        time: "TBD"
+        id: "id5"
