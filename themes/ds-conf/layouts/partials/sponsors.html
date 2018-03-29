@@ -1,11 +1,36 @@
 <h2 class="section-title">{{ .titles.sponsors }}</h2>
 
-<ul class="sponsors-list">
-{{ range $sponsor := .sponsors }}
-  <li class="sponsor-item" itemscope itemtype="http://schema.org/Organization">
-    <a href="{{ .url }}" class="sponsor--link" itemprop="url" target="_blank">
-      <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
-    </a>
-  </li>
+<div id="platinum">
+{{ range $sponsor := (where .sponsors "type" "eq" "platinum") . }}
+    <div class="sponsor-category">Platinum</div>
+    <div class="sponsor-card">
+      <a href="{{ .url }}" itemprop="url" target="_blank">
+        <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+      </a>
+  </div>
 {{ end }}
-</ul>
+</div>
+
+<div id="gold">
+  {{ range $sponsor := (where .sponsors "type" "eq" "gold") . }}
+    <div class="sponsor-category">Gold</div>
+      <div class="sponsor-card">
+
+          <a href="{{ .url }}" itemprop="url" target="_blank">
+            <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+          </a>  
+    </div>
+  {{ end }}
+</div>
+
+<div id="gold">
+{{ range $sponsor := (where .sponsors "type" "eq" "community") . }}
+<div class="sponsor-category">Community</div>
+    <div class="sponsor-card">
+      <a href="{{ .url }}" itemprop="url" target="_blank">
+        <img src="{{ .logo }}" alt="{{ .name }}" class="photo" itemprop="image">
+      </a>
+    </div>
+  </div>
+{{ end }}
+</div>

@@ -685,6 +685,7 @@ nav {
     height: 115px;
     line-height: 115px;
   }
+  
 }
 /* =============================================================================
    MAIN LAYOUT
@@ -860,6 +861,52 @@ nav {
 .partner-link:hover,
 .partner-link:focus {
   border-color: #f0a303;
+}
+.sponsors img {
+  border: 0;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+  align-content: center;
+}
+.sponsor-card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.15);
+  min-width: 150px;
+  float: left;
+  margin-right: 15px;
+  margin-top: 10px;
+  text-align: center;
+  min-height: 120px;
+  padding:5px;
+}
+.sponsor-card a {
+  margin: 5px;
+  
+}
+
+.sponsor-category {
+  text-align: left;
+  font-size: 2.5em;
+}
+#platinum {
+  margin-bottom: 50px;
+}
+#gold {
+  margin-bottom: 50px;
+}
+#community {
+  margin-bottom: 50px;
+}
+.sponsor-type {
+  background: rgb(207, 43, 43);
+  padding: 5px 10px 5px;
+  margin: 5px 20px 5px;
+  color: rgb(256, 256, 256);
+  font-weight: bold;
+  font-size: 1.2em;
 }
 /* =============================================================================
    CONTACT

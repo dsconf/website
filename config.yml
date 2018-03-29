@@ -25,6 +25,7 @@ params:
     - schedule
     - about
     - location
+    - sponsors
     
     # - sponsors
     # - partners
@@ -134,3 +135,21 @@ params:
         description: ""
         time: "TBD"
         id: "id5"
+
+  Sponsors:
+    - name: "ThoughtWorks"
+      logo: "img/thoughtworks-logo.png"
+      url: "https://www.thoughtworks.com"
+      type: "platinum"
+    - name: "ThoughtWorks"
+      logo: "img/thoughtworks-logo.png"
+      url: "https://www.thoughtworks.com"
+      type: "gold"
+    - name: "ThoughtWorks"
+      logo: "img/thoughtworks-logo.png"
+      url: "https://www.thoughtworks.com"
+      type: "Community"
+    - name: "ThoughtWorks"
+      logo: "img/thoughtworks-logo.png"
+      url: "https://www.thoughtworks.com"
+      type: "community"
